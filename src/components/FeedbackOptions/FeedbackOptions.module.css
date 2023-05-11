@@ -1,0 +1,33 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    rgba(64, 27, 211, 1.9),
+    rgba(192, 180, 15, 1.9) /* rgb(177, 23, 23, 1.9) */
+  );
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.btn {
+  cursor: pointer;
+  width: 80px;
+  padding: 5px 0px;
+  border-radius: 10px;
+  border-color: transparent;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: rgb(255, 255, 255);
+
+  transform: scale(1.1);
+  transition: all 250ms;
+  color: rgb(0, 0, 0);
+}
